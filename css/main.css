@@ -1,0 +1,60 @@
+body {
+    max-width: 750px;
+    margin:  0 auto;
+}
+
+.part {
+    padding: 10px;
+}
+
+button.md-button {
+    color: rgba(255,255,255,0.87);
+    background-color: rgb(16,108,200);
+    min-width: 50px;
+    margin: 5px 0;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav div {
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+}
+
+.text {
+    min-width: 250px;
+}
+
+table td:first-child {
+    background: #eee;
+    padding: 5px 15px;
+}
+
+table td {
+    padding: 5px;
+}
+
+/*.edit.row.ng-scope {*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: rgba(0,0,0,.5);*/
+    /*top: 0;*/
+    /*left:  0;*/
+/*}*/
+
+/*md-input-container.edit-container {*/
+    /*background: #fff;*/
+    /*width: 80%;*/
+    /*position:  absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*padding: 50px;*/
+/*}*/

@@ -1,0 +1,5 @@
+<div><a ui-sref="all">Задания</a></div>
+<div><a ui-sref="new">Написать новое</a></div>
+<div class="answers">
+    <item ng-repeat="data in allToDos track by $index" data="data"></item>
+</div>
