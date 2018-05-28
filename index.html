@@ -10,13 +10,14 @@
     <script src="node_modules/angular-aria/angular-aria.js"></script>
     <script src="node_modules/angular-messages/angular-messages.js"></script>
     <script src="node_modules/angular-material/angular-material.js"></script>
+    <script src="node_modules/axios/dist/axios.js"></script>
     <script src="dist/all.min.js"></script>
 </head>
 <body ng-app="questApp">
 
     <nav>
-        <div><a ui-sref="todo">toDo</a></div>
-        <div><a ui-sref="receipt">Receipt</a></div>
+        <span><a ui-sref="todo">toDo</a></span>
+        <span><a ui-sref="allreceipt">Receipt</a></span>
     </nav>
     <ui-view></ui-view>
 </body>

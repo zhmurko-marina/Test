@@ -14,6 +14,10 @@ button.md-button {
     margin: 5px 0;
 }
 
+img {
+    max-width: 300px;
+}
+
 nav {
     padding: 20px 0;
 }
@@ -31,30 +35,17 @@ nav a {
     min-width: 250px;
 }
 
-table td:first-child {
-    background: #eee;
-    padding: 5px 15px;
+.pagination button {
+    margin-right: 10px;
 }
 
-table td {
-    padding: 5px;
+.food-item {
+    box-shadow: 0 10px 20px rgba(217,213,230,0.5);
+    padding: 20px;
+    margin: 20px 0;
 }
 
-/*.edit.row.ng-scope {*/
-    /*position: fixed;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*background: rgba(0,0,0,.5);*/
-    /*top: 0;*/
-    /*left:  0;*/
-/*}*/
-
-/*md-input-container.edit-container {*/
-    /*background: #fff;*/
-    /*width: 80%;*/
-    /*position:  absolute;*/
-    /*left: 50%;*/
-    /*top: 50%;*/
-    /*transform: translate(-50%, -50%);*/
-    /*padding: 50px;*/
-/*}*/
+.food-item a {
+    color: #444;
+    text-decoration: none;
+}

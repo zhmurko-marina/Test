@@ -1,6 +1,6 @@
 const moduleName = 'dataService'
 angular.module(moduleName, [])
-  .factory('dataService', function ($mdDialog, $rootScope) {
+  .factory('dataService', function ($mdDialog) {
     let toDoList = [
       {
         text: 'buy milk'
@@ -16,7 +16,7 @@ angular.module(moduleName, [])
         $mdDialog.show({
           controller: 'EditTaskController',
           templateUrl: 'js/controllers/editTask/editFormTemplate.html',
-          parent: angular.element(document.body),
+          parent: angular.element(document.body)
         })
       }
     }

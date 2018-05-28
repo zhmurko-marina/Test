@@ -1,0 +1,8 @@
+<div>
+    <img src="{{food.imageURL}}" alt="img">
+    <h1>{{food.name}}</h1>
+    <h4>Ingredients:</h4>
+    <p ng-repeat="ingredient in food.ingredients track by $index">{{ingredient.quantity}} {{ingredient.name}} {{ingredient.type}}</p>
+    <h4>Steps</h4>
+    <p ng-repeat="step in food.steps track by $index">{{step}}</p>
+</div>

@@ -13,6 +13,9 @@ angular.module(moduleName, []).directive('item', function () {
         dataService.showDialog(data)
         $rootScope.data = data
       }
+      $scope.delete = function () {
+        dataService.toDoList.splice(this.$index, 1)
+      }
     }
   }
 })

@@ -1,0 +1,5 @@
+<div class="pagination">
+    <button class="md-raised md-primary md-button md-ink-ripple" ng-repeat="page in options.allPages" ng-click="setCurrentPage(page)">{{page + 1}}</button>
+</div>
+
+<food ng-repeat="food in options.data track by $index" food="food"></food>

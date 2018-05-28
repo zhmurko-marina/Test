@@ -1,0 +1,5 @@
+<div class="food-item">
+    <img src="{{data.imageURL}}" alt="img">
+    <!--<h1><a ui-sref="receipt" ng-click="sendData(data)">{{data.name}}</a></h1>-->
+    <h1><a ui-sref='receipt({dataFood: data, dataName: data.name})'>{{data.name}}</a></h1>
+</div>
